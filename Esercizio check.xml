@@ -1,0 +1,10 @@
+<? xml version="1.0" encoding="UTF-8"?>
+
+<!-- scrivere e fare il check di un xml non opportunamente annidato-->
+
+<noNested>
+    <noGood>
+        <error>
+    </noGood>
+        </error>
+</noNested>

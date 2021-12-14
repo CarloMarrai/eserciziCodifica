@@ -1,0 +1,20 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<!--aprire il file xml non ben formato, validarlo con un parser xml, correggerlo, aggiungere un figlio e un fratello ad un elemento -->
+
+<doc>
+    <element>
+        <!-- aggiungo un figlio a element -->
+        <child>
+        </child>
+        <!-- aggiungo un fratello a child-->
+        <sibling> 
+        </sibling>
+    </element>
+    <!-- ho corretto l'annidamento, l'errore era che <nowell> era chiuso prima di <over>-->
+    <nowell>
+        <over>
+        </over>
+    <!-- ho corretto nowell, perchè era con la lettera maiuscola -->
+    </nowell>
+</doc>

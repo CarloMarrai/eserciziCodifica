@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="URF-8"?>
+
+<!--inserire all'interno di un tag un frammendo di codice HTML-->
+
+<htmlCode> <![CDATA[<h1> Titolo scritto più grande </h1> <h2> Sottotitolo scritto più piccolo </h2>]]></htmlCode>

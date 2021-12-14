@@ -1,0 +1,68 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<!-- marcare un testo plain text di circa 3000 caratteri a piacere:
+    inserire prologo XML 
+    marcare la struttura usando gli elementi fin qui descritti in particolare marcare tutti i paragrafi usando <p> e la struttura editoriale usando <div>
+    verificare che sia ben formato con xmllint
+    salvare il file XML su github-->
+
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Alice nel Paese delle Meraviglie </title>
+                <author> Lewis Carroll </author>
+            </titleStmt>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div n ="1" type = "chapter">
+                <p>
+                    Alice cominciava a essere veramente stufa di star seduta senza far nulla accanto alla sorella, sulla riva del fiume. 
+                    Una o due volte aveva provato a dare un'occhiata al libro che sua sorella stava leggendo, ma non c'erano né figure né filastrocche.
+                </p>
+                <p>
+                    <q> "Che me ne faccio d'un libro senza figure e senza filastrocche?" </q>
+                </p>
+                <p>
+                    pensava Alice.
+                    A dire il vero non era possibile pensare molto, perché faceva così caldo che Alice si sentiva tutta assonnata e con le idee confuse:
+                    adesso si stava chiedendo se valesse la pena di alzarsi a raccogliere fiori per fare una ghirlanda di margherite, 
+                    quando ecco che improvvisamente le passò proprio davanti un Coniglio Bianco con gli occhi rosa. 
+                    La cosa non sembrò TROPPO strana, ad Alice. Non le parve neppure TROPPO strano che il Coniglio dicesse tra sé:
+                </p>
+                <p>
+                    <q> "Povero me, povero me! arriverò troppo tardi!" </q>
+                </p>
+                <P>
+                    Solo in un secondo tempo, quando ripensò a questo fatto, Alice si rese conto che avrebbe dovuto meravigliarsene; 
+                    sull'istante le sembrò addirittura una cosa naturale. Però quando il Coniglio TIRO' FUORI UN OROLOGIO DAL TASCHINO DEL PANCIOTTO e, 
+                    dopo avergli dato un'occhiata, affrettò il passo ancora di più, Alice balzò in piedi meravigliata perché ricordava benissimo di non aver mai visto 
+                    un coniglio con un taschino nel panciotto e, per di più, con un orologio dentro questo taschino! Ormai era tutta presa dalla curiosità: 
+                    lo rincorse attraverso il campo e per fortuna arrivò in tempo per vederlo infilarsi in una grande tana, sotto una siepe.
+                    Un momento dopo Alice s'infilava nella tana dietro di lui: non le venne neppure in mente di chiedersi come avrebbe poi fatto a uscire da quel posto.
+                    Per un tratto la tana era diritta come una galleria, poi sprofondava all'improvviso, ma così all'improvviso, che Alice non fece neppure in tempo 
+                    a pensare che era meglio fermarsi, perché si trovò subito a sprofondare lungo quella specie di pozzo veramente profondo.
+                    O il pozzo era molto profondo oppure Alice cadeva lentamente: il fatto certo è che lei, prima d'arrivare in fondo, ebbe tutto il tempo di guardarsi 
+                    intorno e di chiedersi che cosa le stesse capitando. In un primo tempo cercò di guardare in basso per vedere dove stava andando a finire. 
+                    Ma c'era troppo buio e non si vedeva niente. Allora guardò le pareti del pozzo e si accorse che erano piene di credenze e di scaffali. 
+                    Da ogni parte si vedevano carte geografiche e quadri appesi ai chiodi. Alice prese a volo un barattolo da una credenza:
+                    sull'etichetta c'era scritto "MARMELLATA D'ARANCE". Però fu molto delusa quando si accorse che il barattolo era vuoto. Non voleva buttarlo via, 
+                    perché aveva paura che, cadendo, potesse ammazzare qualcuno. Allora lo posò sopra un'altra credenza, mentre le passava davanti.
+                </p>
+                <p>
+                    <q>"Bene!"</q>
+                </p>
+                <p> pensava intanto Alice.</p>
+                <p>
+                    <q> "Dopo una caduta come questa, un capitombolo lungo le scale mi sembrerà uno scherzo! A casa troveranno che sono proprio coraggiosa! 
+                        Anzi sono sicura che non avrei paura nemmeno se dovessi cadere dal tetto di casa!" </q>
+                </p>
+                <p>
+                    (Questo, molto probabilmente, era vero.) 
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

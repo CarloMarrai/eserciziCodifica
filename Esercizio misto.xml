@@ -1,0 +1,32 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<!--utilizzare puntatori, note, lista, glossario marcare nomi, rs, term-->
+
+<TEI>
+    <teiHeader>
+    </teiHeader>
+    <text>
+        <!--esempio puntatori-->
+        <p> vedi capitolo <ref> secondo capitolo, p.77 </ref></p>
+        <!-- esempio note-->
+        <note> nota </note>
+        <!-- esempio lista-->
+        <list type ="simple">
+            <head> giorni della settimana </head>
+            <item> lunedì </item>
+            <item> martedì </item>
+            <item> mercoledì </item>
+            <item> giovedì </item>
+            <item> venerdì </item>
+            <item> sabato </item>
+            <item> domenica </item>
+        </list>
+        <!-- esempio glossario e term-->
+        <term> Rococò </term> <gloss> è uno stile ornamentale sviluppatosi in Francia nella prima metà del Settecento quale evoluzione del tardo barocco.</gloss>
+        <!-- esempio rs-->
+        <q> gentile <rs type="person"> Luigi </rs> </q>
+        <!-- marcare nome-->
+        <q> gentile <name type="person"> Luigi </name> </q>
+    </text>
+</TEI>
+ 

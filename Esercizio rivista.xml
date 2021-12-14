@@ -1,0 +1,43 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<!--codificare usando gli opportuni elementi TEI un articolo di rivista-->
+
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Articolo del Tirreno su multa a Viareggio</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura di</resp>
+                    <name>Carlo Marrai</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <date>2021-14-12</date>
+                <avaiability status="restricted"></avaiability> 
+            </publicationStmt>
+            <sourceDesc>
+                <title>Seduto al bar senza Green pass: multati il cliente e il titolare di un locale di Viareggio</title>
+                <publisher>Il Tirreno</publisher>
+                <date>2021-14-12</date>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p> VIAREGGIO. Seduto al tavolo del bar senza Green pass: multato dalla polizia. Nello scorso weekend, gli agenti del  del commissariato d Viareggio 
+            hanno effettuato un servizio specifico dedicato ai controlli per il rispetto della normativa sui Green Pass. Durante uno di questi, all'interno di un bar 
+            a Viareggio, lungo l'Aurelia, i poliziotti hanno trovato al tavolo un cliente, residente a Carrara, che stava consumando senza avere il certificato 
+            necessario.</p>
+            <p> Durante i controlli è stato identificato anche il titolare del locale, entrambi  sono stati multati  per la violazione delle norme per contenimento 
+            del contagio da Covid-19. Secondo gli accertamenti della polizia, il titolare del bar non era l in possesso del green-pass base previsto. </p> 
+            <p>
+                <q>"I controlli dedicati</q>
+            </p>
+            <p> - spiegano dal commissariato - </p>
+            <p>
+                <q> andranno avanti anche nei prossimi giorni, nonché intensificati in vista delle imminenti festività natalizie".</q>
+            </p>
+        </body>
+    </text>
+</TEI>

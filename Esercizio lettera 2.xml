@@ -1,0 +1,134 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<!-- codificare lettera Bellini utilizzando il tagset facsimile e il collegamento completo testo-immagine-->
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Lettera di Bellini a Pepoli </title>
+                <author> Vincenzo Bellini </author>
+                <date when ="26/08/1834"> 26/08/1834 </date>
+            </titleStmt>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <facsimile>
+                <surface>
+                    <graphic url='Vincenzo_bellini.jpg' width='366px' height='488px' />
+                    <zone xml:id="verde" ulx="6" uly="6" lrx="184" lry="39">
+                        <note> Timbro parzialmente visibile </note>
+                    </zone>
+                    <zone xml:id ="celeste" ulx="4" uly="42" lrx="183" lry="146" >
+                        <line> à Monsieur </line>
+                        <line> 
+                            <persName> 
+                                <roleName> Monsieur le Conte </roleName>
+                                <surname> Pepoli</surname>
+                            </persName>
+                        </line>
+                        <line>
+                            <address>
+                                <addrLine> N:o 1: passage des petits Peres </addrLine>
+                            </address>
+                        </line>
+                        <line> 
+                            <address>
+                                <addrLine> à <placeName> Paris </placeName></addrLine>
+                            </address>
+                        </line>
+                        <note> Timbro postale con data 27 giugno, alla sua destra presenti delle scritte e disegni </note>
+                    </zone>
+                    <zone xml:id ="blu" ulx="5" uly="148" lrx="184" lry="250" >
+                        <line> 
+                            <num value ="27"> 27</num><pc>-</pc>
+                        </line>
+                        <line> Lettera del </line>
+                        <line>
+                            <persName>
+                                <surname> Bellini </surname>
+                            </persName>
+                            sul duetto
+                        </line>
+                        <line> del 
+                            <num value ="1"> 1 </num> <pc> ° </pc><pc>:</pc> atto dei Puritani
+                        </line>
+                        <note> Timbro postale di Neuilly sur Seine, data 27 giugno </note>
+                    </zone>
+                    <zone xml:id ="rosso"ulx="187" uly="4" lrx="371" lry="32" >
+                        <line>
+                            <date when ="2606"> 
+                                <abbr> Jun </abbr> 
+                                <num value ="26"> 26 </num>
+                            </date> 
+                            <pc>:</pc>
+                            <placeName>Puteau</placeName><abbr>N</abbr><pc>:</pc><pc>°</pc> <num value="19">19</num> bis
+                        </line>
+                        <line>
+                            de <w rend ="underline"> Neuilly </w>
+                        </line>
+                    </zone>
+                    <zone xml:id ="arancione" ulx="202" uly="34" lrx="369" lry="242" />
+                        <line> Mio caro 
+                            <persName>
+                                <forename>
+                                    <choice>
+                                        <reg> Carlo </reg>
+                                        <orig> Carluccio </orig>
+                                    </choice>
+                                </forename>
+                            </persName>
+                        </line>
+                        <line> avendo steso l'intero duetto </line>
+                        <line> e mancando in esso qualche </line>
+                        <line> 
+                            <choice>
+                                <reg> cosa </reg>
+                                <orig> cosetta </orig>
+                            </choice> 
+                            <pc>,</pc> desidererei che tu 
+                        </line>
+                        <line> t' <destinct type ="archaic"> incomodassi </distinct> a venire <foreign>à</foreign> </line>
+                        <line>
+                            <name type ="place" xml:lang ="fr"> Puteau </name> per tutto fissare e <pc>,</pc>
+                        </line>
+                        <line> 
+                            all<pc>'</pc><distinct type ="archaic"> istesso</distinct> tempo darmi la 
+                        </line>
+                        <line> <distinct type="archaic">sortita</distinct> di 
+                                <persName>
+                                    <surname>Rubini</surname>
+                                </persName> 
+                                se è termi<pc>=</pc>
+                        </line>
+                        <line> nata <pc>.</pc> T'aspetto in quel giorno </line>
+                        <line> ed in qual'ora vorrai </line>
+                    </zone>
+                    <zone xml:id ="rosa" ulx="285" uly="228" lrx="370" lry="247" >
+                        <line> <pc>-</pc> Addio </line>
+                        <line> il tuo 
+                            <persName>
+                                <forename>
+                                    <choice>
+                                        <reg> Vincenzo</reg>
+                                        <orig> Vincenzillo </orig>
+                                    </choice>
+                                </forename>
+                            </persName>
+                        </line>
+                    </zone>
+                </surface>
+            </facsimile>
+        </body>
+    </text>
+</TEI>
+
+
+
+
+                            
+                    
+
+                
+
+
